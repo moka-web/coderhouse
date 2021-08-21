@@ -11,18 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body >
     <header class="FondoHeader">
-    
-     
-      
-      <nav class="ubicacionnav">
-          <ul class="lista">
-              
+      <nav class="nav">
+        <button class="nav__boton"><i class="fas fa-bars"></i></button>
+          <ul class="lista nav__lista-visible">
+            
                   
             <li class="li" ><a href="index.html" class="colorfuente">inicio</a></li>
             <li class="li" ><a href="pages/clientes.html" class="colorfuente">clientes</a></li>
@@ -58,66 +57,70 @@
     <div class="indexdiv2">
     <hr class="indexdiv2__hr">
     </div>
+    <section class="container">
+     <div class="row">
+      <div class="col-6" >
+        <h2 class="section2index__h2"> Bienvenidos</h2>
+        <div>
+          <hr>
+        </div>  
+        <p class="section2index__p"> 
+          "Mas de 20 años dedicados a brindar las mejores eperiencias gastronomicas del mercardo garantizadas por nuestros propios <a href="./pages/clientes.html">clientes</a>."       
+        </p>
+      </div>  
 
-    <section class="section2index">
-      <h2 class="section2index__h2"> Bienvenidos</h2>
-      <p class="section2index__p"> 
-        Mas de 20 años dedicados a brindar las mejores eperiencias gastronomicas que ofrece el mercardo.       
-      </p>
-    </section>
+      <div id="demo" class="carousel slide " data-ride="carousel col-6">
 
-    <section class="section3index">
-
-      <ul class="section3index__ul">
-
-        <li id="slide1" class="section3index__ul__li">
-          <img src="./images/fotomassimo.jpg" alt="">
-        </li>
-        <li id="slide2" class="section3index__ul__li">
-          <img src="./images/platoservicios1.jpg" alt="">
-        </li>
-        <li id="slide3" class="section3index__ul__li"> 
-          <img src="./images/platoservicios2.jpg" alt="">
-        </li>
-
-      </ul>
-
-      <ul class="section3index__ul2">
-
-        <li> 
-           <a  href="#slide1"> 1</a>
-        </li>
-        <li>  
-          <a  href="#slide2"> 2</a>
-        </li>
-        <li> 
-           <a  href="#slide3"> 3</a>
-        </li>
-
-      </ul>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/fotomassimo.jpg" alt="plato1" class="carrousel__img rounded-circle">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/fotomassimo2.jpg" alt="plato2" class="carrousel__img rounded-circle ">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/platoservicios2.jpg" alt="plato3" class="carrousel__img rounded-circle ">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+    </div> 
+    </section>  
     
-    </section>
-    
-    
     
     
     
 
-    <footer>
-      <img src="images/Filo..png" alt="LOGO" class="Tamañologofooter">
-      <nav class="navfooter">
-        <ul class="listafooter">
-            
-                
-          <li class="lifooter"><a href="">facebook</a></li>
-          <li class="lifooter" ><a href="">instagram</a></li>
-          <li class="lifooter" ><a href="">twitter</a></li>
-          <li class="lifooter" ><a href="">whatsapp</a></li>
-                    
-        </ul>  
+  <footer>
+    <img src="images/Filo..png" alt="LOGO" class="Tamañologofooter">
+    <nav class="navfooter">
+      <ul class="listafooter">   
+        <li class="lifooter"><a href="https://www.facebook.com/" id="facebook"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="lifooter" ><a href="https://www.instagram.com/" id="instagram"><i class="fab fa-instagram"></i></a></li>
+        <li class="lifooter" ><a href="https://twitter.com/?lang=es" id="twitter"><i class="fab fa-twitter"></i></a></li>
+        <li class="lifooter" ><a href="https://web.whatsapp.com/" id="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>  
     </nav>      
-
-
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="nav.js"></script>
 </body>
 </html>

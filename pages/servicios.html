@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <header class="FondoHeader">
@@ -37,8 +39,9 @@
   </div>
 
   <body>
-    <h1 class="h1servicios"> NUESTROS SERVICIOS  </h1>
+    
     <section >
+        <h1 class="h1servicios"> NUESTROS SERVICIOS  </h1>
 
         <p class="parraffo1servicios">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, eligendi. Debitis error saepe quae perspiciatis laborum, illum suscipit dignissimos architecto, dicta cupiditate labore nisi libero itaque amet voluptas vel totam?
@@ -50,36 +53,36 @@
         <hr class="serviciosdiv2__hr">
     </div>
     
-    <section >
-        <div class="section2__servicios__div">
-            <article class="serviciossection2__div__article">
+    <section class="container" >
+        <div class="row">
+            <article class=" col-md-4">
                 <div>
                     <h2 class="styleh2servicios" >servicios empresariales</h2>
                     <p class="section2servicios__article__div__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis alias culpa deleniti et id delectus vitae labore placeat perspiciatis distinctio aut, odit sequi fugit veritatis hic quam saepe veniam error.</p>
                 </div> 
                 <div>    
-                    <img src="../images/clientes1.jpg" alt="" class="section2servicios__article__div__img">
+                    <img src="../images/clientes1.jpg" alt="" class="section2servicios__article__div__img mx-auto d-block">
                 </div>       
             </article>
             
-            <article class="serviciossection2__div__article" >
+            <article class=" col-md-4" >
                 <div>
                     <h2 class="styleh2servicios">servicios perzonalizados</h2>
                     <p class="section2servicios__article__div__p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis alias culpa deleniti et id delectus vitae labore placeat perspiciatis distinctio aut, odit sequi fugit veritatis hic quam saepe veniam error.</p>
                 </div>
                 <div>    
-                    <img src="../images/clientes2 (2).jpg"  alt="" class="section2servicios__article__div__img">
+                    <img src="../images/clientes2 (2).jpg"  alt="" class="section2servicios__article__div__img mx-auto d-block">
                 </div>
             </article>
             
-            <article class="serviciossection2__div__article" >
+            <article class=" col-md-4" >
                 <div>
                     <h2 class="styleh2servicios" >servicios <br> privados</h2>
                     <p class="section2servicios__article__div__p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis alias culpa deleniti et id delectus vitae labore placeat perspiciatis distinctio aut, odit sequi fugit veritatis hic quam saepe veniam error.</p>
                     
                 </div>
                 <div>
-                    <img src="../images/clientes3.jpg"  alt="" class="section2servicios__article__div__img">
+                    <img src="../images/clientes3.jpg"  alt="" class="section2servicios__article__div__img mx-auto d-block">
                 </div>        
             </article>
         </div> 
@@ -88,15 +91,13 @@
     <footer>
         <img src="../images/Filo..png" alt="LOGO" class="Tamañologofooter">
         <nav class="navfooter">
-            <ul class="listafooter">
-            
-                
-                <li class="lifooter"><a href="">facebook</a></li>
-                <li class="lifooter" ><a href="">instagram</a></li>
-                <li class="lifooter" ><a href="">twitter</a></li>
-                <li class="lifooter" ><a href="">whatsapp</a></li>
-                          
-            </ul>  
-      </nav>      
+          <ul class="listafooter">   
+            <li class="lifooter"><a href="https://www.facebook.com/" id="facebook"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="lifooter" ><a href="https://www.instagram.com/" id="instagram"><i class="fab fa-instagram"></i></a></li>
+            <li class="lifooter" ><a href="https://twitter.com/?lang=es" id="twitter"><i class="fab fa-twitter"></i></a></li>
+            <li class="lifooter" ><a href="https://web.whatsapp.com/" id="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+          </ul>  
+        </nav>      
+      </footer>
 </body>
 </html>
