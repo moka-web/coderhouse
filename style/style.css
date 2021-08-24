@@ -613,15 +613,18 @@
                         top: -120px;
                         
                 }
-
-               
-
-               
-                
-        
-        
-                 
-                
-                
-                     
+            
         }
+
+        @media (max-width: 576px) {
+                .section1index__h2{
+                        margin: 50px;
+                        text-transform: initial;
+                        text-align: center;
+                        font-family: 'Montserrat', sans-serif;
+                        color:white;
+                        font-size: 30px;
+                        font-style: inherit;
+                }
+
+         }
