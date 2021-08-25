@@ -1,0 +1,96 @@
+          /* menu de navegacion */
+       
+       
+          .FondoHeader {
+               
+            background-image: linear-gradient(  rgb(224, 179, 63), white) ;
+            height: 90px;
+            
+            
+            } 
+    
+    .nav{
+            display: flex;
+            justify-content: flex-end;
+            
+    }
+
+    .nav__boton{
+            color: white;
+            background: none;
+            border: none;
+            font-size: 30px;
+            padding: 0 20px;
+            line-height: 60px;
+            display: none;
+            cursor: pointer;
+
+    }
+    
+    .lista {
+            list-style:none;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 100px;
+
+            
+            }
+    .li{    
+            
+            
+            padding: 30px;
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif ;
+            color: #003644 ;
+           
+
+    }
+
+    .lista li a:hover {
+          color: white;
+          transition:2s ;
+          font-size: 2rem;
+          text-decoration: none;
+
+    }
+
+    .Tamañologo {
+            position: absolute;
+            top: 0px;
+            width: 200px; height: 200px;
+            z-index: 2;
+            animation-duration: 2s;
+            animation-name: LOGO;
+            transform: rotate(-20deg);
+            left: 80%;                
+            
+    }
+
+    
+    
+    @keyframes LOGO{
+            0%{
+                    opacity: 0%;
+            }
+
+            100%{
+                    opacity: 1;
+            }
+    
+    }
+
+    
+     
+    
+    
+   
+
+    .colorfuente{
+            color: #003644 ;
+            text-decoration:none;
+            font-family:'Montserrat', sans-serif ;
+
+    }        
+    /* menu de navegacion para todas las paginas  */
+    
+   

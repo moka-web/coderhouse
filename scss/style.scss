@@ -1,0 +1,123 @@
+
+@import './index.scss' ;
+@import './servicios.scss';
+@import './clientes.scss';
+@import './contacto.scss';
+@import './nosotros.scss';
+@import './navbar.scss';
+@import './footer.scss';
+@import './Variables.scss';
+
+
+       
+@media (max-width: 768px) {
+        
+.nav__lista-visible{
+        left: 0;
+}
+
+.Tamañologo {
+        position: absolute;
+        top: 0px;
+        width: 90px; height: 90px;
+        z-index: 2;
+        animation-duration: 2s;
+        animation-name: LOGO;
+        transform: rotate(-20deg);                
+        
+}
+
+@keyframes LOGO{
+        0%{
+                opacity: 0%;
+        }
+
+        100%{
+                opacity: 1;
+        }
+
+}
+
+
+.collapse{
+        background-color: white;
+        flex-direction: row;
+}
+
+.section1index__h2{
+        margin: 50px;
+        text-transform: initial;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        font-size: 60px;
+        font-style: inherit;
+}
+
+.div__videoindex{
+        display: flex;
+}
+.videoindex{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+        top: -120px;
+        
+}
+        
+}
+
+@media (max-width: 576px) {
+        
+
+.div__videoindex{
+        display: flex;
+}
+.videoindex{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+        top: -120px;
+        
+}
+
+
+
+.section1index__h2{
+        margin: 50px;
+        text-transform: initial;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        font-size: 30px;
+        font-style: inherit;
+}
+
+
+
+
+.navfooter{
+display: flex;
+justify-content: center;
+
+background-image: linear-gradient( white, rgb(224, 179, 63)) ;
+
+
+
+}
+
+
+
+.lifooter{
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+padding:0;
+font-size: 20px;
+
+}
+
+
+
+}
