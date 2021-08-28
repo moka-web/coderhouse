@@ -1,68 +1,62 @@
-.h1servicios{
+
+.section1servicios{
+    h1{
     margin: 50px;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     color: #003644 ;
     font-size: $font-size__titulos;
-}
-.parraffo1servicios{
+    }
+    p{
     margin: 100px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #003644 ;
     font-size: 20px;
-    
+
+    }
+
 }
 
-.serviciodiv2{
+.serviciosdiv1{
     display: flex;
     justify-content: center;
-}
-
-.serviciosdiv2__hr{
+    hr{
     width: 50%;
     color: #003644 ;
+    }
 }
 
-.section2__servicios__div{
-    margin: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-   }
-
-.serviciossection2__div__article{
-    display: flex;
-   flex-direction: column;
-   align-items: center;
-
-}      
-
-.styleh2servicios{
+.sectionservicios__article{
+    h2{
     font-family:'Montserrat', sans-serif;
     color: #003644 ;
     text-align: center;
-}
-
-.section2servicios__article__div__p{
+    }
+    p{
     font-family: 'Open Sans', sans-serif;
     color: #003644 ;
     font-size: 15px;
-   
-    text-align: center;
-}
-
-.section2servicios__article__div__img{
+    text-align: center;  
+    }
+    img{
     width: 200px;
     height: 200px;
-   margin-top: 20px;
-   margin-left: 70px;
-  
-
-
+    margin-top: 20px;
+    margin-left: 70px;
+    }
 }
 
 .row {
     margin: 50px;
+}
+
+@for $i from 1 through 3 {
+    .articleservicios__#{$i}{
+       
+        h2{
+            text-decoration: underline;
+        }
+       
+    }
 }
