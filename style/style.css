@@ -340,47 +340,38 @@
     animation-duration: 2s;
     animation-name: LOGO;
     transform: rotate(-20deg); }
-  @keyframes LOGO {
-    0% {
-      opacity: 0%; }
-    100% {
-      opacity: 1; } }
   .collapse {
     background-color: white;
     flex-direction: row; }
-  .section1index__h2 {
-    margin: 50px;
+  .section1index div video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    top: 50px; }
+  .section1index div h2 {
+    margin-top: 100px;
     text-transform: initial;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 60px;
-    font-style: inherit; }
-  .div__videoindex {
-    display: flex; }
-  .videoindex {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -100;
-    top: -120px; } }
+    font-style: inherit; } }
 
 @media (max-width: 576px) {
-  .div__videoindex {
-    display: flex; }
-  .videoindex {
+  .section1index div video {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: -100;
-    top: -120px; }
-  .section1index__h2 {
-    margin: 50px;
+    top: 50px; }
+  .section1index div h2 {
+    margin-top: 150px;
     text-transform: initial;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-style: inherit; }
   .navfooter {
     display: flex;
