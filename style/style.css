@@ -97,47 +97,29 @@
 .articleservicios__3 h2 {
   text-decoration: underline; }
 
-.clientes__section1posicion {
-  display: flex;
-  justify-content: center;
-  margin: 150px; }
-
-.div__hrclientes {
-  display: flex;
-  justify-content: center;
-  margin: 30px; }
-
-.hrclientes {
-  width: 50%; }
-
 .sectionclientes__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 50px; }
+  .sectionclientes__div h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #003644;
+    font-size: 30px; }
+  .sectionclientes__div p {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: #003644;
+    font-size: 20px; }
 
-.sectionclientes__div__h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #003644;
-  font-size: 30px; }
-
-.sectionclientes__div__p {
-  text-align: center;
-  margin-top: 80px;
-  font-family: 'Open Sans', sans-serif;
-  color: #003644;
-  font-size: 20px; }
-
-.videoclientes {
-  width: 1700px;
-  height: 400px; }
-
-.bodyclientes__h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #003644;
-  text-align: center;
-  margin: 35px; }
+.div__hrclientes {
+  display: flex;
+  justify-content: center;
+  margin: 30px; }
+  .div__hrclientes hr {
+    width: 50%; }
 
 .section2clientes {
   height: 100vh;
@@ -229,12 +211,11 @@
 .section1nosotros {
   margin: 100px;
   text-align: center; }
-
-.parrafosectionnosotros {
-  font-family: 'Open Sans', sans-serif;
-  color: #003644;
-  margin: 30px;
-  font-size: 20px; }
+  .section1nosotros p {
+    font-family: 'Open Sans', sans-serif;
+    color: #003644;
+    margin: 30px;
+    font-size: 20px; }
 
 /* menu de navegacion */
 .FondoHeader {
