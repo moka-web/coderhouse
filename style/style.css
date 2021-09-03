@@ -121,6 +121,11 @@
   .div__hrclientes hr {
     width: 50%; }
 
+.clientescarousel__img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover; }
+
 .section2clientes {
   height: 100vh;
   display: grid;
