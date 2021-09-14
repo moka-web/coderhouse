@@ -41,7 +41,8 @@
         h2{
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
-                color: $color-textos;    
+                color: $color-textos;
+                font-size: 40px;    
         }
         p{
                 text-align: center;
@@ -73,5 +74,32 @@
         .section1index__h2{
                 color: white;
         }
-}    
-        
+} 
+
+.indexdiv3{
+        display: flex;
+        justify-content: center;
+
+        hr{
+        width: 75%;    
+        }
+}
+
+.section3__img{
+        width: 100%;
+}
+
+.section3index__h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-textos;
+        font-size: 40px;
+}  
+
+.section3index__p{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        color: $color-textos;
+        margin: 30px; 
+}
