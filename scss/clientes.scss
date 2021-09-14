@@ -147,18 +147,21 @@
             height: 350px;
             width: 300px;
             margin-top: 20px;
+            object-fit: cover;
     }
 
     .section2__article2__img{
             height: 260px;
             width: 250px;
             margin-right: 50px;
+            object-fit: cover;
     }
 
     .section2__article3__img{
             height: 260px;
-            width: 250px;
+            width: 100%;
             margin-left: 50px;
+            object-fit: cover;
 
     
 
