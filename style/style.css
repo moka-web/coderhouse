@@ -199,6 +199,23 @@
   margin-left: 50px;
   object-fit: cover; }
 
+.sectionclientes__div1 h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #003644; }
+
+.sectionclientes__div1 p {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #003644;
+  margin: 30px; }
+
+.sectionclientes__div2 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; }
+
 .ubicacionh1contacto {
   text-align: center;
   margin: 50px;

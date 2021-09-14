@@ -166,3 +166,25 @@
     
 
     }
+    .sectionclientes__div1{
+        h2{
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                color: $color-textos;    
+        }
+        p{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 30px;
+                color: $color-textos;
+                margin: 30px;      
+        }
+    }
+
+    .sectionclientes__div2{
+            img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+            }
+    }
