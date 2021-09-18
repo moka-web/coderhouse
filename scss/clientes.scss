@@ -34,6 +34,12 @@
         }
 }
 
+.clientescarousel__img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+}
+
  
 
 
@@ -141,19 +147,44 @@
             height: 350px;
             width: 300px;
             margin-top: 20px;
+            object-fit: cover;
     }
 
     .section2__article2__img{
             height: 260px;
             width: 250px;
             margin-right: 50px;
+            object-fit: cover;
     }
 
     .section2__article3__img{
             height: 260px;
-            width: 250px;
+            width: 100%;
             margin-left: 50px;
+            object-fit: cover;
 
     
 
+    }
+    .sectionclientes__div1{
+        h2{
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                color: $color-textos;    
+        }
+        p{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 30px;
+                color: $color-textos;
+                margin: 30px;      
+        }
+    }
+
+    .sectionclientes__div2{
+            img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+            }
     }
