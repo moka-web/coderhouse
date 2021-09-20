@@ -27,24 +27,25 @@
     }
 }
 
-.sectionservicios__article{
+.section2servicios__article{
+    
+    box-shadow: 10px 10px 8px #888888;
     h2{
-    font-family:'Montserrat', sans-serif;
-    color: #003644 ;
-    text-align: center;
+        text-align: center;
+        font-size: 30px;
+      
+
     }
     p{
-    font-family: 'Open Sans', sans-serif;
-    color: #003644 ;
-    font-size: 15px;
-    text-align: center;  
+
     }
     img{
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-left: 70px;
+        width: 100%;
+        object-fit: fill;
+        
     }
+    
+
 }
 
 .row {
