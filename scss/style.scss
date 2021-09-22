@@ -145,8 +145,9 @@ font-size: 20px;
         
         .Tamañologo {
                 position: absolute;
+                right: 10px;
                 top: 20px;
-                width: 75px; height: 75px;
+                width: 70px; height: 70px;
                 z-index: 2;
                 animation-duration: 2s;
                 animation-name: LOGO;
@@ -155,11 +156,19 @@ font-size: 20px;
         }
 
         .Tamañologofooter{
-                width: 75px; height: 75px; 
+                width: 60px; height: 60px; 
                 position: relative;
-                bottom: -50px;}
+                bottom: -30px;
+        }
+        .lifooter{
+                display: inline-block;
+                font-family: Arial, Helvetica, sans-serif;
+                padding:0;
+                font-size: 15px;
+                
+                }
         
-        
+     
         .section1index{
 
                 div video{
@@ -234,5 +243,32 @@ font-size: 20px;
           }
           }
         
+}
+
+/*desktop*/
+
+@media( min-width: 1550px){
+
+        .section1index{
+
+                div video{
+                position: absolute;
+                width: 100%;
+                height: 100vh;
+                z-index: -100;
+                top: 50px;
+                object-fit: cover;
+                }
+                div h2{
+                 /* aplico operacion sass*/
+                 margin: 40px;
+                 text-transform: initial;
+                 text-align: center;
+                 font-family: 'Montserrat', sans-serif;
+                 color:white;
+                 font-size: 180px;
+                 font-style: inherit;        
+                } 
+        }
 }
 
