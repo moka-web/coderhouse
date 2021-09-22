@@ -27,11 +27,6 @@
         
 }
 
-.collapse{
-        background-color: white;
-        flex-direction: row;
-}
-
 .section1index{
 
         div video{
@@ -39,45 +34,56 @@
         width: 100%;
         height: 100vh;
         z-index: -100;
-        top: 0px;
+        top: 50px;
+        object-fit: cover;
         }
         div h2{
-     
-         margin-top: 100px;
+         /* aplico operacion sass*/
+         margin: 40px + 10px;
          text-transform: initial;
          text-align: center;
          font-family: 'Montserrat', sans-serif;
          color:white;
-         font-size: 60px;
-         font-style: inherit;
+         font-size: 80px;
+         font-style: inherit;        
         } 
 }
+
+.collapse{
+        background-color: white;
+        flex-direction: row;
+}
+
+
         
 }
 
 @media (max-width: 576px) {
         
 
+
 .section1index{
 
-        div video{
+div video{
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 60vh;
         z-index: -100;
-        top: -150px;
-        }
-        div h2{
-     
-         margin-top: 150px;
-         text-transform: initial;
-         text-align: center;
-         font-family: 'Montserrat', sans-serif;
-         color:white;
-         font-size: 50px;
-         font-style: inherit;
-        } 
+        top: 50px;
+        object-fit: cover;
 }
+div h2{
+        
+        margin: 60px;
+        text-transform: initial;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        font-size: 60px;
+        font-style: inherit;        
+} 
+}
+
 
 .section3index__article{
         box-shadow: 10px 10px 8px #888888;
@@ -109,5 +115,124 @@ font-size: 20px;
 
 
 
+}
+
+@media (max-width: 514px) {
+        .section1index{
+
+                div video{
+                position: absolute;
+                width: 100%;
+                height: 50vh;
+                z-index: -100;
+                top: 50px;
+                object-fit: cover;
+                }
+                div h2{
+                 /* aplico operacion sass*/
+                 margin: 40px + 10px;
+                 text-transform: initial;
+                 text-align: center;
+                 font-family: 'Montserrat', sans-serif;
+                 color:white;
+                 font-size: 40px;
+                 font-style: inherit;        
+                } 
+        }
+        
+}
+@media (max-width: 362px) {
+        
+        .Tamañologo {
+                position: absolute;
+                top: 20px;
+                width: 75px; height: 75px;
+                z-index: 2;
+                animation-duration: 2s;
+                animation-name: LOGO;
+                transform: rotate(-20deg);                
+                
+        }
+
+        .Tamañologofooter{
+                width: 75px; height: 75px; 
+                position: relative;
+                bottom: -50px;}
+        
+        
+        .section1index{
+
+                div video{
+                position: absolute;
+                width: 100%;
+                height: 50vh;
+                z-index: -100;
+                top: 50px;
+                object-fit: cover;
+                }
+                div h2{
+                 /* aplico operacion sass*/
+                 margin: 40px;
+                 text-transform: initial;
+                 text-align: center;
+                 font-family: 'Montserrat', sans-serif;
+                 color:white;
+                 font-size: 40px;
+                 font-style: inherit;        
+                } 
+        }
+
+        .indexdiv2{
+                display: flex;
+                justify-content: center;
+                margin: 100px;
+        
+                hr{
+                width: 75%;    
+                }
+        }
+        .section2index__div__1{
+
+                h2{
+                        text-align: center;
+                        font-family: 'Montserrat', sans-serif;
+                        color: $color-textos;
+                        font-size: 35px;    
+                }
+                p{
+                        text-align: center;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 20px;
+                        color: $color-textos;
+                        margin: 30px;      
+                }
+        }
+        .indexcarrousel__img{
+                width: 90%;
+                height: 230px;
+                
+                
+        }
+
+        .section3index__div1{
+                article { 
+                        
+                  h2{
+                          text-align: center;
+                          font-family: 'Montserrat', sans-serif;
+                          color: $color-textos;
+                          font-size: 35px;
+          
+                  }
+                  p{
+                          text-align: center;
+                          font-family: 'Open Sans', sans-serif;
+                          font-size: 20px;
+                          color: $color-textos;
+                          margin: 30px;    
+                  }
+          }
+          }
+        
 }
 

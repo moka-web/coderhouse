@@ -13,6 +13,7 @@
         height: 100vh;
         z-index: -100;
         top: 50px;
+        object-fit: cover;
         }
         div h2{
          /* aplico operacion sass*/
@@ -25,6 +26,7 @@
          font-style: inherit;        
         } 
 }
+
 
 .indexdiv2{
         display: flex;
@@ -85,25 +87,38 @@
         }
 }
 
-.section3index__article{
-        box-shadow: 10px 10px 8px #888888;
+.section3index__div1{
+      article { 
+              
+        h2{
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+                color: $color-textos;
+                font-size: 40px;
+
+        }
+        p{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 30px;
+                color: $color-textos;
+                margin: 30px;    
+        }
+}
 }
 
-.section3__img{
-        width: 100%;
+.section3index__div2{
+        
+        
+        article{
+                box-shadow: 10px 10px 8px #888888;
+                img{
+                        width: 100%;
+                }
+}
 }
 
-.section3index__h2{
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        color: $color-textos;
-        font-size: 40px;
-}  
 
-.section3index__p{
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 30px;
-        color: $color-textos;
-        margin: 30px; 
-}
+
+
+
