@@ -20,7 +20,7 @@
         position: absolute;
         top: 0px;
         width: 90px; height: 90px;
-        z-index: 2;
+        z-index: 4;
         animation-duration: 2s;
         animation-name: LOGO;
         transform: rotate(-20deg);                
@@ -148,7 +148,7 @@ font-size: 20px;
                 right: 10px;
                 top: 20px;
                 width: 70px; height: 70px;
-                z-index: 2;
+                z-index: 3;
                 animation-duration: 2s;
                 animation-name: LOGO;
                 transform: rotate(-20deg);                
